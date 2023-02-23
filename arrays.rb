@@ -30,3 +30,6 @@ puts overdue_accts
 puts " "
 overdue_accts.unshift(true, true)
 puts overdue_accts
+
+puts "In this students array we have 4 elements, however Abe is index position 0 and Joe is index position 3.[Abe, Bill, Bob, Joe]" 
+puts " this is because we start at 0 when we count elements in array. So Bill is actually in position one."
