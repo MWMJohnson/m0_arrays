@@ -33,3 +33,11 @@ puts overdue_accts
 
 puts "In this students array we have 4 elements, however Abe is index position 0 and Joe is index position 3.[Abe, Bill, Bob, Joe]" 
 puts " this is because we start at 0 when we count elements in array. So Bill is actually in position one."
+puts " "
+
+# A new array method I learned is the first() method. This method returns an output showing the first element of an array without removal.
+students = ["Abe", "Bill", "Bob", "Joe"]
+puts students
+puts " "
+puts students.first
+
